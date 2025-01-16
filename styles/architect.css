@@ -31,7 +31,17 @@
     font-size: 1.25rem;
     color: #FFFFFF;
     border-radius: 8px;
+    cursor: pointer;
 }
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section {
+    margin-top: 130px;
+}
+
 
 /* Header Styles */
 
@@ -76,8 +86,39 @@
     width: 100%;
 }
 
+/* teams and our feature section related styles */
+.teams{
+    align-items: center;
+    gap: 4.5rem;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+}
 
+.our-feature{
+    max-width: 530px;
+}
 
+.our-feature .feature-title{
+    font-size: 3rem;
+}
+.our-feature #quick-list{
+    font-weight: 500;
+}
+.our-feature #of-our{
+    font-weight: 700;
+}
+.our-feature #features{
+    color: #FF900E;
+}
+
+.feature-description{
+    font-size: 1.15rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+}
 
 /* Responsive Media Query */
 @media screen and (max-width:576px) {
